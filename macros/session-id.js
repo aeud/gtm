@@ -1,3 +1,4 @@
+// Create a client id cookie
 function () {
 	return {{cookie value}} || (function (name, value, expires, path, domain, secure) {
 		var today = new Date();

@@ -1,0 +1,11 @@
+<!-- UA 03 Pageview -->
+<script>
+ga('send', {
+  'hitType': 'pageview',
+  'hitCallback': function() {
+  	dataLayer.push({
+		'event': 'ua.pageview'
+	});
+  }
+});
+</script>
